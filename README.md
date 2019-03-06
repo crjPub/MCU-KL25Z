@@ -7,5 +7,10 @@
 [NXP FRDM-KL25Z User's Manual](http://cache.freescale.com/files/32bit/doc/user_guide/FRDMKL25ZUM.zip)  
 [MCUXpresso SDK API Reference Manual](https://mcuxpresso.nxp.com/api_doc/dev/181/index.html)  
 
-# 开发记录
-[loggig](logging.md)
+# 问题及解决
+[一些问题及解决措施](issues.md)
+
+# 日志
+[开发进度记录](logging.md)
+
+
