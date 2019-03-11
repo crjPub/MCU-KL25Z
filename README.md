@@ -1,8 +1,13 @@
-![](https://img.shields.io/badge/build-passing-green.svg)![](https://img.shields.io/badge/language-C-green.svg)
+![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-C-green.svg)
 ![](https://i.imgur.com/PV5n5Dc.png)
-# 引言
+# Introduce
 本仓库用于存储基于SDK开发的FRDM-KL25Z的代码以及文档  
 同时作为PRP进度记录
+
+# Catalog
+[](0. start project/Readme.md)![](https://img.shields.io/badge/status-finish-green.svg)
+[](1. GPIO/Readme.md)![](https://img.shields.io/badge/status-todo-red.svg)
+[](2.PIT/README.md)![](https://img.shields.io/badge/status-todo-red.svg)
 
 # References
 介绍网站[FRDM-KL25Z](https://os.mbed.com/platforms/KL25Z/)   
@@ -11,10 +16,10 @@ KL25家族参考手册[NXP KL2x Reference Manual](http://cache.freescale.com/fil
 用户手册压缩包[NXP FRDM-KL25Z User's Manual](http://cache.freescale.com/files/32bit/doc/user_guide/FRDMKL25ZUM.zip)   
 SDK在线API手册[MCUXpresso SDK API Reference Manual](https://mcuxpresso.nxp.com/api_doc/dev/181/index.html)   
 
-# 问题及解决
+# Problems&Solutions
 [一些问题及解决措施](issues.md)
 
-# 日志
+# Log
 [开发进度记录](logging.md)
 
 
