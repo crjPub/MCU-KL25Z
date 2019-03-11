@@ -5,9 +5,9 @@
 同时作为PRP进度记录
 
 # Catalog
-[](0. start project/Readme.md)![](https://img.shields.io/badge/status-finish-green.svg)
-[](1. GPIO/Readme.md)![](https://img.shields.io/badge/status-todo-red.svg)
-[](2.PIT/README.md)![](https://img.shields.io/badge/status-todo-red.svg)
+[start project](0.startproject/Readme.md) ![](https://img.shields.io/badge/status-finish-green.svg)  
+[GPIO](1.GPIO/Readme.md) ![](https://img.shields.io/badge/status-todo-red.svg)  
+[PIT](2.PIT/README.md) ![](https://img.shields.io/badge/status-todo-red.svg)  
 
 # References
 介绍网站[FRDM-KL25Z](https://os.mbed.com/platforms/KL25Z/)   
