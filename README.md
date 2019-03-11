@@ -5,7 +5,7 @@
 同时作为PRP进度记录
 
 # Catalog
-[start project](0.startproject/Readme.md) ![](https://img.shields.io/badge/status-finish-green.svg)  
+[start project](0.StartProject/Readme.md) ![](https://img.shields.io/badge/status-finish-green.svg)  
 [GPIO](1.GPIO/Readme.md) ![](https://img.shields.io/badge/status-todo-red.svg)  
 [PIT](2.PIT/README.md) ![](https://img.shields.io/badge/status-todo-red.svg)  
 
