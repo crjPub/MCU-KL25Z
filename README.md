@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/build-passing-green.svg)![](https://img.shields.io/badge/language-C-green.svg)
 ![](https://i.imgur.com/PV5n5Dc.png)
 # 引言
 本仓库用于存储基于SDK开发的FRDM-KL25Z的代码以及文档  
