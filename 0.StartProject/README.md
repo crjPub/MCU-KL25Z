@@ -17,4 +17,4 @@
 注意连接的端口，有两个，USB要连接下图端口，正确连接，STATUS LED会常亮绿灯。
 ![](https://i.imgur.com/zu98DBY.jpg)
 点击Build可以编译程序，无报错且连接正确后，可以点击Debug调试程序。
-![](https://i.imgur.com/Hvfh1TD.png)
+![](https://github.com/crjPub/MCU-KL25Z/blob/master/build%20and%20debug.png)
