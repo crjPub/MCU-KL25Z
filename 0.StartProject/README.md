@@ -1,6 +1,6 @@
 # 准备工作
 ## 安装MCUXpresso IDE
-首先需要安装MCUXpresso IDE集成开发环境，[<u>下载MCUXpresso Integrated Development Environment(IDE)</u>](https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)，安装过程按照安装包安装流程进行，详细安装过程略。
+首先需要安装MCUXpresso IDE集成开发环境，下载MCUXpresso IDE集成开发环境先注册nxp账号[<u>下载MCUXpresso Integrated Development Environment(IDE)</u>](https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)，安装过程按照安装包安装流程进行，详细安装过程略。
 ## 下载SDK
 选择开发板对应的SDK开发包，前往[NXP下载页](https://mcuxpresso.nxp.com/en/select)，搜索开发板名称，并选择**Build MCUXpresso SDK**即可下载SDK压缩包。
 ![download SDK](https://i.imgur.com/OkR0AHx.png)
