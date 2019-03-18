@@ -50,7 +50,7 @@ static void PIT_SetTimerPeriod(PIT_Type* base, pit_chnl_t channel, uint32_t coun
 `channel` Timer channel number  
 `count` Timer period in units of ticks  
 计时器从该函数设置的值开始计数，直到它达到0，然后产生一个中断并从寄存器加载该值。将新值写入此寄存器不会立即重新启动计时器，而是当目前计时完成时再改变。
-例：' PIT_SetTimerPeriod(PIT, kPIT_Chnl_0, USEC_TO_COUNT(1000000U, PIT_SOURCE_CLOCK))';
+例：`PIT_SetTimerPeriod(PIT, kPIT_Chnl_0, USEC_TO_COUNT(1000000U, PIT_SOURCE_CLOCK))`;
 
 ### 使能中断
 ```
@@ -64,5 +64,5 @@ static void PIT_EnableInterrupts(PIT_Type* base, pit_chnl_t channel, uint32_t ma
 ```
 static inline void PIT_StartTimer(PIT_Type *base, pit_chnl_t channel)
 ```
-`base` PIT peripheral base address
-`channel` Timer channel number.
+`base`  PIT peripheral base address
+`channel`  Timer channel number.
