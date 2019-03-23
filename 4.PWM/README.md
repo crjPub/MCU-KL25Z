@@ -1,7 +1,7 @@
 MCUXpresso SDK为设备的定时器PWM模块（TPM）提供驱动程序。TPM驱动程序支持生成PWM信号、输入捕获和输出比较模式。
 函数[`TPM_Init()`](#anchor1)使用指定的配置初始化TPM。函数`TPM_GetDefaultConfig()`获取默认配置信息。函数`TPM_Deinit()`禁用TPM计数器并关闭模块时钟。函数`TPM_SetupPwm()`为PWM输出设置TPM通道，该功能可以为多个通道设置PWM信号属性。每个通道都有自己的`tpm_chnl_pwm_signal_param_t`结构，用于指定输出信号的占空比和电平模式。然而，相同的脉宽调制周期和脉宽调制模式适用于所有请求脉宽调制输出的信道。信号占空比以脉宽调制周期的百分比提供。其值应介于0和100之间，其中0为非激活信号（0%占空比）和100为始终激活信号（100%占空比）。当产生组合的脉宽调制信号时，所传递的信道号是指信道对号，例如0是指信道0和1，1是指信道2和3。
 
-数据结构
+## 数据结构
 
 	struct tpm_config_t
 
@@ -18,6 +18,21 @@ enableReloadOnTrigger|bool|TPM计数器在触发器上重新加载
 enableStopOnOverflow|bool|溢出后TPM计数器停止
 enableStartOnTrigger|bool|仅当检测到触发器时，才会启动TPM计数器
 
+	struct tpm_chnl_pwm_signal_param_t
+
+参数表  
+
+参数名称|类型|说明
+-|-|-
+chnlNumber|tpm_chnl_t |要配置的TPM通道
+level|tpm_pwm_level_select_t|脉宽调制输出激活电平选择
+dutyCyclePercent|uint8_t|脉宽调制脉冲宽度，值应在0到100之间
+
+
+
+
+## 枚举类型
+
 	enum tpm_clock_prescale_t
 
 值|说明
@@ -31,18 +46,6 @@ kTPM_Prescale_Divide_32|Divide by 32.
 kTPM_Prescale_Divide_64|Divide by 64.
 kTPM_Prescale_Divide_128|Divide by 128.
 
-
-	struct tpm_chnl_pwm_signal_param_t
-
-参数表  
-
-参数名称|类型|说明
--|-|-
-chnlNumber|tpm_chnl_t |要配置的TPM通道
-level|tpm_pwm_level_select_t|脉宽调制输出激活电平选择
-dutyCyclePercent|uint8_t|脉宽调制脉冲宽度，值应在0到100之间
-
-	
 	enum tpm_chnl_t
 
 值|说明
@@ -63,10 +66,7 @@ kTPM_Chnl_7|TPM channel number 7.
 kTPM_NoPwmSignal|No PWM output on pin.
 kTPM_LowTrue|Low true pulses.
 kTPM_HighTrue|High true pulses.
-
-
-
-功能函数
+## 功能函数  
 <span id="anchor1">初始化函数</span>
 
 	void TPM_Init(TPM_Type* base, const tpm_config_t *config)
