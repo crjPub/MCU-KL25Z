@@ -13,7 +13,7 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
 
     void DAC_Init(DAC_Type *base, const dac_config_t *config)
 `base`：DAC外围设备的基地址。
- `*config`：配置结构的配置指针（#struct1）。
+`config`：配置[`dac_config_t`](#struct1)的类型指针。
     config->dac_reference_voltage_source_t referenceVoltageSource = kDAC_ReferenceVoltageSourceVref2; 
     config->bool enableLowPowerMode = false;
 
