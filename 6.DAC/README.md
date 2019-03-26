@@ -20,7 +20,7 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
 ### <span id="func2">DAC_GetDefaultConfig</span>
 
     void DAC_GetDefaultConfig(dac_config_t *config)
-`*config`：配置结构的配置指针（#struct1）。  
+`*config`：配置结构的配置指针。  
 
 ### <span id="func3">DAC_Enable</span>
 
