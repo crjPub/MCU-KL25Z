@@ -48,6 +48,7 @@ enableLowPower|`bool`|启用DAC模块低功率模式
 ### <span id="struct2">`_dac_buffer_config`</span>
 
 参数表
+
 参数名|参数类型|说明
 -|-|-
 triggerMode|['dac_buffer_trigger_mode_t']|选择缓冲区的触发方式
