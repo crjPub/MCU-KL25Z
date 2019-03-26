@@ -51,7 +51,7 @@ enableLowPower|`bool`|启用DAC模块低功率模式
 
 参数名|参数类型|说明
 -|-|-
-triggerMode|['dac_buffer_trigger_mode_t']|选择缓冲区的触发方式
-watermark|[`dac_buffer_watermark_t`]|选择缓冲区的水印
-workMode|[`dac_buffer_work_mode_t`]|选择缓冲区的工作模式
-upperLimit|[`uint8_t`]|设置缓冲区数据的上限值
+triggerMode|'dac_buffer_trigger_mode_t'|选择缓冲区的触发方式
+watermark|`dac_buffer_watermark_t`|选择缓冲区的水印
+workMode|`dac_buffer_work_mode_t`|选择缓冲区的工作模式
+upperLimit|`uint8_t`|设置缓冲区数据的上限值
