@@ -20,16 +20,16 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
 ### <span id="func2">DAC_GetDefaultConfig</span>
 
     void DAC_GetDefaultConfig(dac_config_t *config)
-`*config`：配置结构的配置指针（#struct1）。
+`*config`：配置结构的配置指针（#struct1）。  
 
 ### <span id="func3">DAC_Enable</span>
 
     static inline void DAC_Enable(DAC_Type *base, bool enable)
-`base`:DAC外围设备的基地址。
-`enable`:使能或者不使能该功能，为布尔值。
+`base`:DAC外围设备的基地址。  
+`enable`:使能或者不使能该功能，为布尔值。  
 
 ### <span id="func4">DAC_SetBufferReadPointer</span>
 
-    void DAC_SetBufferReadPointer(DAC_Type *base, uint8_t index)
-`base`DAC外围设备的基地址。
-`index`为read指针设置的数值。
+    void DAC_SetBufferReadPointer(DAC_Type *base, uint8_t index)  
+`base`DAC外围设备的基地址。  
+`index`为read指针设置的数值。  
