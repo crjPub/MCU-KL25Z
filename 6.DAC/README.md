@@ -33,3 +33,14 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
     void DAC_SetBufferReadPointer(DAC_Type *base, uint8_t index)  
 `base`DAC外围设备的基地址。  
 `index`为read指针设置的数值。  
+
+
+## 数据结构
+### <span id="struct1">`struct dac_config_t`</span>
+
+参数表
+
+参数名|参数类型|说明
+-|-|-
+referenceVoltageSource|[`dac_reference_voltage_source_t`](#enum1)|选择DAC模块的参考电压源
+enableLowPower|`bool`|启用DAC模块低功率模式
