@@ -11,7 +11,9 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
 函数[`DAC_SetBufferValue`](#func6)为缓冲区中的项设置数值。  
 函数[`DAC_EnableBuffer`](#func7)使能DAC缓冲区。  
 函数[`DAC_EnableBufferInterrupts`](#func8)使能DAC缓冲区中断。  
-函数[`DAC_DoSoftwareTriggerBuffer`](#func9)软件触发DAC缓冲区并且更新DAC缓冲区目前的read指针。    
+函数[`DAC_DoSoftwareTriggerBuffer`](#func9)软件触发DAC缓冲区并且移动DAC缓冲区目前的read指针。  
+函数[`DAC_GetBufferStatusFlags`](#func10)获取DAC缓冲区的事件标志。
+函数[`DAC_ClearBufferStatusFlags`](#func11)清除DAC缓冲区的事件标志。
 
 
 ##功能函数
@@ -75,6 +77,19 @@ DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此�
 
     static inline void DAC_DoSoftwareTriggerBuffer(DAC_Type *base)
 `base`：DAC外围设备的基地址。  
+
+
+### <span id="func10">DAC_GetBufferStatusFlags</span>
+
+    uint32_t DAC_GetBufferStatusFlags(DAC_Type *base)
+`base`：DAC外围设备的基地址。  
+
+
+### <span id="func11">DAC_ClearBufferStatusFlags</span>
+
+    void DAC_ClearBufferStatusFlags(DAC_Type *base, uint32_t mask)
+`base`：DAC外围设备的基地址。  
+`mask`：详细参考_dac_buffer_status_flags_t。  
 
 
 ## 数据结构
