@@ -3,15 +3,15 @@
 MCUXpresso SDK为设备的数模转换模块提供外设驱动程序。
 DAC驱动程序包括一个DAC转换器和一个DAC缓冲区。通过使用此数模转换，用户可以在相应的DAC电压输出pin检测到输出电压，本开发板为pin J10-11。
 
-函数[`DAC_Init`](#func1)初始化DAC数模转换模块，包括使能时钟、使用用户的配置来配置DAC转换器、使能DAC模块。  
-函数[`DAC_GetDefaultConfig`](#func2)将用户配置结构初始化为默认值。
-函数[`DAC_Enable`](#func3)使能DAC模块，使其能够输出。
-函数[`DAC_SetBufferReadPointer(DAC_Type *base, uint8_t index)`](#func4)设置目前的DAC缓冲区read指针确保DAC模块目前的读指针指向第一个要读取的数值。  
-函数[`DAC_SetBufferConfig`](#func5)配置CMP缓冲区。  
-函数[`DAC_SetBufferValue`](#func6)为缓冲区中的项设置数值。
-函数[`DAC_EnableBuffer`](#func7)使能DAC缓冲区。
-函数[`DAC_EnableBufferInterrupts`](#func8)使能DAC缓冲区中断。
-函数[`DAC_DoSoftwareTriggerBuffer`](#func9)软件触发DAC缓冲区并且更新DAC缓冲区目前的read指针。  
+函数[`DAC_Init`](#func1)初始化DAC数模转换模块，包括使能时钟、使用用户的配置来配置DAC转换器、使能DAC模块。   
+函数[`DAC_GetDefaultConfig`](#func2)将用户配置结构初始化为默认值。  
+函数[`DAC_Enable`](#func3)使能DAC模块，使其能够输出。  
+函数[`DAC_SetBufferReadPointer(DAC_Type *base, uint8_t index)`](#func4)设置目前的DAC缓冲区read指针确保DAC模块目前的读指针指向第一个要读取的数值。    
+函数[`DAC_SetBufferConfig`](#func5)配置CMP缓冲区。    
+函数[`DAC_SetBufferValue`](#func6)为缓冲区中的项设置数值。  
+函数[`DAC_EnableBuffer`](#func7)使能DAC缓冲区。  
+函数[`DAC_EnableBufferInterrupts`](#func8)使能DAC缓冲区中断。  
+函数[`DAC_DoSoftwareTriggerBuffer`](#func9)软件触发DAC缓冲区并且更新DAC缓冲区目前的read指针。    
 
 
 ##功能函数
