@@ -18,3 +18,6 @@
 ![](https://i.imgur.com/zu98DBY.jpg)
 点击Build可以编译程序，无报错且连接正确后，可以点击Debug调试程序。
 ![build and debug](https://github.com/crjPub/MCU-KL25Z/blob/master/upload%20images/build%20and%20debug.png)
+
+配置工具使用：
+
