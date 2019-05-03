@@ -26,6 +26,9 @@ PIT周期中断计时器，计时到预设数值产生中断。相比在主函�
 [`PIT_GetStatusFlags()`](#func12) 获取PIT状态标志。   
 [`PIT_ClearStatusFlags()`](#func13) 清楚PIT状态标志。  
 
+### Useful Function
+`USEC_TO_COUNT(us, clockFreqInHz)` 把微秒转换为ticks。  
+
 ## 功能函数
 ### <span id="func1">初始化PIT</span>
 
