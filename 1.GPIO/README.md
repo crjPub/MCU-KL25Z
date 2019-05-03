@@ -24,7 +24,9 @@ gpio_pin_config_t led_config = {
 };
 ```
 
-#GPIO —— General Purpose Input/Output Driver
+====
+
+# GPIO —— General Purpose Input/Output Driver
 
 ## 介绍
 MCUXpresso SDK为设备的通用输入/输出模块提供外设驱动程序提供。  
